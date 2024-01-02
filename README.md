@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./resources/netslope_icon.png">
+  <img src="./resources/netslope_icon.png" width="50%" height="50%">
 </p>
 <hr>
 <h1>Introduction</h1>
