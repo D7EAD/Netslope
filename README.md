@@ -8,6 +8,7 @@
 
 It allows users to:
 - Define a custom filter to match packets to.
+  - Or, alternatively, use pre-compiled filters.
 - Drop packets that match said filter.
 - Add latency to packets that match said filter.
 - Drop a percentage of packets that match said filter.
