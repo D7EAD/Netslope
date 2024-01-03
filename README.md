@@ -10,8 +10,8 @@ It allows users to:
 - Define a custom filter to match packets to.
   - Or, alternatively, use pre-compiled filters.
 - Drop packets that match said filter.
-- Add latency to packets that match said filter.
-- Drop a percentage of packets that match said filter.
+- Add latency to packets that match said filter before re-injecting.
+- Drop a percentage of packets that match said filter while re-injecting others.
 
 The application features a simple, friendly, dark mode graphical user interface - allowing users to quickly switch between modes (Drop, Percent Drop, and Latency), as well as easily start/stop network operations on the fly. The application also includes extensive logging capabilities to diagnose errors that may occur, as well as provide a detailed call-stack for the operations performed in the application.
 
