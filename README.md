@@ -28,6 +28,3 @@ When building from source, **Netslope** requires three dependencies:
 <p align="center">
   <img src="./resources/demo2.png">
 </p>
-<p align="center">
-  <img src="./resources/demo3.png">
-</p>
