@@ -473,7 +473,8 @@ void Application::Stop_ModifyControls() {
 
 	// enable inputs
 	if (app.m_DropModeCheckbox->value() == 1) {
-		app.m_PercentDropInput->activate();
+		app.m_PercentDropInput->deactivate();
+		app.m_LatencyInput->deactivate();
 	}
 	else if (app.m_LatencyModeCheckbox->value() == 1) {
 		app.m_LatencyInput->activate();
